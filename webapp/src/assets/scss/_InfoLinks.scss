@@ -1,0 +1,37 @@
+/*BOTTOM PAGE INFO*/
+
+
+.info-links {
+    border-top: 2px solid $color-gray-3;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 75px;
+
+    .btn-round {
+        padding: 15px 20px;
+        font-size: 25px;
+    }
+
+    .btn-round:hover {
+        background-color: $color-gray-1;
+        color: $color-light-red;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    h2 {
+        font-size: $font-size-20;
+        color: $color-dark;
+        font-family: $font-poppins;
+        font-weight: $font-weight-bold;
+        padding-top: 30px;
+        transition: color 0.3s;
+    }
+    a:hover h2 {
+        color: $color-light-red;
+    }
+    p {
+        padding: 15px;
+    }
+}

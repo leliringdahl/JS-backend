@@ -1,0 +1,61 @@
+/*BANNER (visste inte vad jag skulle kalla det)*/
+.banner { /* padding måste flyttas ner på @media*/
+    padding: 60px;
+
+    .top-picks {
+        position: relative;
+        width: 825px;
+        height: 403px;
+        margin-right: 15px;
+
+        .top-picks-text {
+            position: absolute;
+            top: 96px;
+            right: 36px;
+
+            .btn-main {
+                background-color: $color-black;
+            }
+            
+            .btn-main:hover {
+                background-color: #3b3d3f;
+            }
+        }
+    }
+
+    .flash-sale {
+        position: relative;
+        width: 825px;
+        height: 403px;
+        margin-left: 15px;
+
+        .flash-sale-text {
+            position: absolute;
+            top: 96px;
+            left: 36px;
+
+            h4 {
+                color: $color-black;
+            }
+
+            .btn-main {
+                background-color: $color-white;
+                color: $color-black;
+
+                .btn-bracket-left {
+                    border-left: 2px solid $color-black;
+                    border-top: 2px solid $color-black;
+                }
+
+                .btn-bracket-right {
+                    border-right: 2px solid $color-black;
+                    border-bottom: 2px solid $color-black;
+                }
+            }
+
+            .btn-main:hover {
+                background-color: $color-gray-3;
+            }
+        }
+    }
+}

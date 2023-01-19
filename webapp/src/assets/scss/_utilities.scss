@@ -1,0 +1,72 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.__1-fr {
+    flex: 1;
+}
+
+.__2-fr {
+    flex: 2;
+}
+
+/*BUTTONS*/
+
+.btn-main {
+    position: relative;
+    background-color: $color-light-red;
+    color: $color-white;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+    padding: 18px 50px;
+    transition: background-color 0.4s;
+}
+    .btn-main:hover {
+    background-color: #e06565;
+    color: $color-white;
+    }
+
+    .btn-main .btn-bracket-left,
+    .btn-main .btn-bracket-right {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+    }
+
+    .btn-main .btn-bracket-left {
+        top: 10px;
+        left: 10px;
+        border-left: 2px solid $color-white;
+        border-top: 2px solid $color-white;
+
+    }
+
+    .btn-main .btn-bracket-right {
+        bottom: 10px;
+        right: 10px;
+        border-right: 2px solid $color-white;
+        border-bottom: 2px solid $color-white;
+    }
+
+.btn-round {
+    position: relative;
+    background-color: $color-white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px $color-gray-4;
+    text-align: center;
+    border: none;
+    transition: background-color 0.4s;
+    transition: color 0.3s;
+}
+
+h4 {  
+    font-size: $font-size-45;
+    font-weight: $font-weight-bold;
+    color: $color-white;
+}
+
+.bg-lt-red {
+    background-color: $color-light-red;
+}
+
+

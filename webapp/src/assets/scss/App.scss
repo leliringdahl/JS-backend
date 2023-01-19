@@ -1,0 +1,21 @@
+@import './variables';
+@import './utilities';
+@import './Navbar';
+@import './Showcase';
+@import './ProductGrid';
+@import './Banners';
+@import './homepageSale';
+@import './infoLinks';
+@import './ContactsPage';
+@import './Form';
+@import './Footer';
+
+/*Tänkte försöka mobilanpassa men kunde inte se ändringarna. tömde hela _Navbar.scss filen utan att navbaren ändrades över huvud taget i devtools. försökt i flera olika .scss filer men det har inte gått pga detta har jag inte gjort några mobilanpassnigar*/ 
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $font-weight-regular;
+    color: $color-dark;
+}
